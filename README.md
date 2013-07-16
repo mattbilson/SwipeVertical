@@ -1,3 +1,16 @@
+## Swipe JS Vertical
+
+It is not the original release by Brad Birdsall. This version handles swipe vertical.
+About the API, config, params, support,... please, check out this project: https://github.com/bradbirdsall/Swipe
+
+
+## Usage
+
+The only difference for using Swipe JS Vertical is that you must define a height for your container.
+You can do it in CSS files or your JavaScript code, up to you.
+
+
+
 ## Usage
 Swipe only needs to follow a simple pattern. Here is an example:
 

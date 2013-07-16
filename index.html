@@ -1,18 +1,20 @@
 <!DOCTYPE HTML> 
 <html>
 <head>
-<title>Swipe 2</title>
+<title>Swipe 2 (vertical)</title>
 <meta http-equiv="X-UA-Compatible" content="IE=8">
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/> 
 <link href='style.css' rel='stylesheet'/>
 <style>
 
 /* Swipe 2 required styles */
+/* To use it in a vertical way, .swipe needs a fixed height */
 
 .swipe {
   overflow: hidden;
   visibility: hidden;
   position: relative;
+  height: 500px /* MANDATORY ! */
 }
 .swipe-wrap {
   overflow: hidden;
@@ -73,8 +75,8 @@
 
 
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src='swipe.js'></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src='swipe-vertical.js'></script>
 <script>
 
 // pure JS
