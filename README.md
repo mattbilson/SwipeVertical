@@ -6,7 +6,7 @@ About the API, config options, params, browser support,... please, [check out th
 
 ## Set Up
 
-The only difference for using **Swipe JS Vertical** is that you must define a *height* for your container. You can do it in *CSS* files or in your *JavaScript* code, up to you.
+The only difference for using **Swipe JS Vertical** is that you must define a *height* for your container. You can do it in *CSS* files or in your *JavaScript* code.
 
  ``` css
  .swipe {
