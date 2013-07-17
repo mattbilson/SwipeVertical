@@ -1,13 +1,35 @@
 ## Swipe JS Vertical
 
-It is not the original release by Brad Birdsall. This version handles swipe vertical.
-About the API, config, params, support,... please, check out this project: https://github.com/bradbirdsall/Swipe
+Warning. It is not the original release by *Brad Birdsall*. This version **handles vertical swipe**.
+About the API, config options, params, browser support,... please, [check out the original project](https://github.com/bradbirdsall/Swipe).
 
 
 ## Usage
 
-The only difference for using Swipe JS Vertical is that you must define a height for your container.
-You can do it in CSS files or your JavaScript code, up to you.
+The only difference for using **Swipe JS Vertical** is that you must define a *height* for your container. You can do it in *CSS* files or in your *JavaScript* code, up to you.
+
+ ``` css
+ .swipe {
+   overflow: hidden;
+   visibility: hidden;
+   position: relative;
+   **height: myHeight px**. <- Mandatory
+ }
+ .swipe-wrap {
+   overflow: hidden;
+   position: relative;
+ }
+ .swipe-wrap > div {
+   float:left;
+   width:100%;
+   position: relative;
+ }
+ ```
+
+
+Other settings (HTML, JS,...) are still the same.
+
+
 
 
 
@@ -66,7 +88,7 @@ Swipe can take an optional second parameter– an object of key/value settings:
 - **disableScroll** Boolean *(default:false)* - stop any touches on this container from scrolling the page
 
 - **stopPropagation** Boolean *(default:false)* - stop event propagation
- 
+
 -	**callback** Function - runs at slide change.
 
 - **transitionEnd** Function - runs at the end slide transition.
@@ -109,7 +131,7 @@ Swipe is now compatible with all browsers, including IE7+. Swipe works best on d
 <img src='http://swipejs.com/assets/swipe-cnn.png' width='170'>
 <img src='http://swipejs.com/assets/swipe-airbnb.png' width='170'>
 <img src='http://swipejs.com/assets/swipe-nhl.png' width='170'>
-<img src='http://swipejs.com/assets/swipe-thinkgeek.png' width='170'>  
+<img src='http://swipejs.com/assets/swipe-thinkgeek.png' width='170'>
 <img src='http://swipejs.com/assets/swipe-snapguide.png' width='170'>
 
 Shoot me a [note](mailto:brad@birdsall.co) if you want your logo here
