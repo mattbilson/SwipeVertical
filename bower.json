@@ -1,0 +1,15 @@
+{
+  "name": "Swipe-Vertical",
+  "version": "2.0.0",
+  "ignore": [
+    ".gitignore"
+  ],
+  "gitHead": "",
+  "readmeFilename": "README.md",
+  "_id": "Swipe-Vertical@2.0.0",
+  "description": "Swipe-Vertical",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/frederickk/SwipeVertical.git"
+  }
+}
