@@ -13,7 +13,7 @@ The only difference for using **Swipe JS Vertical** is that you must define a *h
    overflow: hidden;
    visibility: hidden;
    position: relative;
-   height: myHeight px; <- Mandatory
+   height: @myHeight px; /* <-- Mandatory */
  }
  .swipe-wrap {
    overflow: hidden;
