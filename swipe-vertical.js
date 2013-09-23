@@ -8,6 +8,10 @@
  *
 */
 
+
+define([], function(){
+
+
 function Swipe(container, options) {
 
   "use strict";
@@ -565,3 +569,7 @@ if ( window.jQuery || window.Zepto ) {
     }
   })( window.jQuery || window.Zepto )
 }
+
+return Swipe;
+
+});

@@ -1,14 +1,14 @@
 {
     "name": "Swipe-Vertical",
-    "version": "2.0.0",
+    "version": "2.0.2",
     "description" : "It is not the original release of Swipe JS by Brad Birdsall. This version handles vertical swipe.",
     "main" : "./swipe-vertical.js",
     "repository" : {
         "type" : "git",
-        "url" : "git://github.com/frederickk/SwipeVertical.git"
+        "url" : "git://github.com/mattbilson/SwipeVertical.git"
     },
     "keywords" : [ "swipe", "plugin", "browser" ],
-    "author" : ["Brad Birdsall","Romain Prache"],
+    "author" : ["Brad Birdsall","Romain Prache", "Matt Bilson"],
     "licenses": "MIT",
     "devDependencies": {
         "grunt-contrib-jshint": "~0.2.0",

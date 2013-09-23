@@ -1,15 +1,28 @@
 {
   "name": "Swipe-Vertical",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "ignore": [
-    ".gitignore"
+    ".gitignore",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
   ],
-  "gitHead": "",
   "readmeFilename": "README.md",
-  "_id": "Swipe-Vertical@2.0.0",
+  "_id": "Swipe-Vertical@2.0.2",
   "description": "Swipe-Vertical",
   "repository": {
     "type": "git",
-    "url": "git://github.com/frederickk/SwipeVertical.git"
-  }
+    "url": "git://github.com/mattbilson/SwipeVertical.git"
+  },
+  "main": "swipe-vertical.js",
+  "homepage": "https://github.com/mattbilson/SwipeVertical",
+  "authors": [
+    "Brad Birdsall",
+    "Romain Prache",
+    "Matt Bilson <matt@mattbilson.com>"
+  ],
+  "license": "MIT",
+  "private": true
 }
