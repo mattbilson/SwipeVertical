@@ -31,8 +31,15 @@ function Swipe(container, options) {
     })(document.createElement('swipe'))
   };
 
+
   // quit if no root element
   if (!container) return;
+  
+  //Added by mattbilson for specific use case.
+  if(options.noTouch) {
+    browser.touch = false;
+  }
+  
   var element = container.children[0];
   var slides, slidePos, height, length;
 
